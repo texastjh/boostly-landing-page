@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get 16.4% More Customers - Automated Review Responses | Boostly</title>
+    <meta name="description" content="Restaurant owners get 16.4% more customers with automated Google review responses. Save 3+ hours monthly while improving your Google ranking. FREE early access.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #E5E7EB;
+            background-color: #0A0A0A;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        .header {
+            background: #0A0A0A;
+            padding: 30px 0;
+            border-bottom: 1px solid #1F2937;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 600;
+            color: #FFFFFF;
+        }
+        
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            margin-right: 12px;
+            background-size: contain;
+            border-radius: 8px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: #0A0A0A;
+            color: white;
+            padding: 120px 0;
+        }
+        
+        .hero-content {
+            display: grid;
+            grid-template-columns: 60fr 40fr;
+            gap: 80px;
+            align-items: center;
+        }
+        
+        .hero-text {
+            text-align: left;
+        }
+        
+        .hero h1 {
+            font-size: 64px;
+            font-weight: 600;
+            margin-bottom: 32px;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+        }
+        
+        .hero .subheading {
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 0;
+            color: #9CA3AF;
+            line-height: 1.5;
+        }
+        
+        .cta-form {
+            background: #111111;
+            border: 1px solid #7F4FFF;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+        
+        .cta-form h3 {
+            color: #FFFFFF;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #374151;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 16px;
+            border: 2px solid #E5E7EB;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        .form-group input:focus {
+            outline: none;
+            border-color: #7F4FFF;
+        }
+        
+        .cta-button {
+            width: 100%;
+            background: linear-gradient(135deg, #7F4FFF 0%, #6B46C1 50%, #5B20F5 100%);
+            color: white;
+            padding: 18px 32px;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(127, 79, 255, 0.3);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(127, 79, 255, 0.4);
+        }
+        
+        .trust-text {
+            margin-top: 16px;
+            font-size: 14px;
+            color: #9CA3AF;
+            text-align: center;
+        }
+        
+        /* HubSpot Form Styling */
+        #hubspot-form {
+            text-align: left;
+        }
+        
+        #hubspot-form .hs-form {
+            margin: 0;
+        }
+        
+        #hubspot-form .hs-form-field {
+            margin-bottom: 20px;
+        }
+        
+        #hubspot-form .hs-form-field label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #E5E7EB;
+            font-size: 16px;
+        }
+        
+        #hubspot-form .hs-input {
+            width: 100% !important;
+            padding: 16px !important;
+            border: 1px solid #374151 !important;
+            border-radius: 8px !important;
+            font-size: 16px !important;
+            transition: border-color 0.3s !important;
+            background: #1F2937 !important;
+            color: #E5E7EB !important;
+        }
+        
+        #hubspot-form .hs-input:focus {
+            outline: none !important;
+            border-color: #7F4FFF !important;
+            box-shadow: none !important;
+        }
+        
+        #hubspot-form .hs-button {
+            width: 100% !important;
+            background: linear-gradient(135deg, #7F4FFF 0%, #6B46C1 50%, #5B20F5 100%) !important;
+            color: white !important;
+            padding: 18px 32px !important;
+            border: none !important;
+            border-radius: 12px !important;
+            font-size: 18px !important;
+            font-weight: 500 !important;
+            cursor: pointer !important;
+            transition: all 0.3s ease !important;
+            box-shadow: 0 4px 12px rgba(127, 79, 255, 0.3) !important;
+        }
+        
+        #hubspot-form .hs-button:hover {
+            transform: translateY(-2px) !important;
+            box-shadow: 0 8px 20px rgba(127, 79, 255, 0.4) !important;
+        }
+        
+        #hubspot-form .hs-error-msgs {
+            color: #DC2626 !important;
+            font-size: 14px !important;
+        }
+        
+        /* Problem Section */
+        .problem {
+            background: #2A2A2E;
+            padding: 120px 0;
+        }
+        
+        .problem h2 {
+            font-size: 48px;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 80px;
+            color: #FFFFFF;
+            letter-spacing: -0.02em;
+        }
+        
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 60px;
+            margin-top: 60px;
+        }
+        
+        .problem-item {
+            text-align: left;
+            padding: 48px;
+            background: #161616;
+            border: 1px solid #2D2D2D;
+            border-radius: 12px;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+        
+        .problem-item:hover {
+            border-color: #7F4FFF;
+            background: #1A1A1A;
+        }
+        
+        .problem-item .icon {
+            width: 48px;
+            height: 48px;
+            background: #7F4FFF;
+            border-radius: 8px;
+            margin: 0 0 24px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .problem-item h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #FFFFFF;
+        }
+        
+        .problem-item p {
+            color: #9CA3AF;
+            line-height: 1.6;
+        }
+        
+        /* Solution Section */
+        .solution {
+            background: #0A0A0A;
+            padding: 120px 0;
+        }
+        
+        .solution-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
+        
+        .solution h2 {
+            font-size: 48px;
+            font-weight: 600;
+            margin-bottom: 32px;
+            color: #FFFFFF;
+            letter-spacing: -0.02em;
+        }
+        
+        .solution-features {
+            list-style: none;
+            margin: 30px 0;
+        }
+        
+        .solution-features li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #E5E7EB;
+        }
+        
+        .solution-features li::before {
+            content: "✓";
+            background: #7F4FFF;
+            color: white;
+            border-radius: 4px;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 16px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .stats-box {
+            background: #0A0A0A;
+            border: 1px solid #1F2937;
+            padding: 48px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .stat {
+            margin-bottom: 30px;
+        }
+        
+        .stat-number {
+            font-size: 48px;
+            font-weight: 700;
+            color: #7F4FFF;
+            display: block;
+        }
+        
+        .stat-text {
+            font-size: 16px;
+            color: #9CA3AF;
+        }
+        
+        /* Client Results Section */
+        .client-results {
+            background: #0A0A0A;
+            padding: 120px 0;
+        }
+
+        .client-results h2 {
+            text-align: center;
+            font-size: 48px;
+            font-weight: 600;
+            margin-bottom: 80px;
+            color: #FFFFFF;
+            letter-spacing: -0.02em;
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+
+        .result-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease;
+        }
+
+        .result-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+        .restaurant-info h4 {
+            color: #1F2937;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .restaurant-info .location {
+            color: #6B7280;
+            font-size: 14px;
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .metric {
+            text-align: center;
+        }
+
+        .metric .number {
+            display: block;
+            font-size: 24px;
+            font-weight: 700;
+            color: #7F4FFF;
+            margin-bottom: 4px;
+        }
+
+        .metric .label {
+            font-size: 12px;
+            color: #6B7280;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .testimonial {
+            background: #F3F4F6;
+            padding: 20px;
+            border-radius: 12px;
+            font-style: italic;
+            color: #374151;
+            border-left: 4px solid #7F4FFF;
+        }
+
+        .testimonial .author {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #6B7280;
+            font-style: normal;
+        }
+
+        .aggregate-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .stat-item .big-number {
+            display: block;
+            font-size: 48px;
+            font-weight: 700;
+            color: #7F4FFF;
+            margin-bottom: 8px;
+        }
+
+        .stat-item .stat-label {
+            font-size: 16px;
+            color: #6B7280;
+        }
+        
+        /* Benefits Section */
+        .benefits {
+            background: #2A2A2E;
+            padding: 120px 0;
+        }
+        
+        .benefits h2 {
+            font-size: 48px;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 80px;
+            color: #FFFFFF;
+            letter-spacing: -0.02em;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px;
+        }
+        
+        @media (max-width: 1200px) {
+            .benefits-grid {
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            }
+        }
+        
+        .benefit-card {
+            background: #161616;
+            border: 1px solid #4A4A4A;
+            padding: 48px 40px;
+            border-radius: 12px;
+            text-align: center;
+            transition: border-color 0.2s ease, background-color 0.2s ease;
+        }
+        
+        .benefit-card:hover {
+            border-color: #7F4FFF;
+            background: #1A1A1A;
+        }
+        
+        .benefit-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #7F4FFF 0%, #6B46C1 50%, #5B20F5 100%);
+            border-radius: 50%;
+            margin: 0 auto 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            box-shadow: 0 8px 16px rgba(127, 79, 255, 0.2);
+        }
+        
+        .benefit-card h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #FFFFFF;
+        }
+        
+        .benefit-card p {
+            color: #9CA3AF;
+            line-height: 1.6;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: #0A0A0A;
+            border-top: 1px solid #1F2937;
+            padding: 120px 0;
+            text-align: center;
+            color: white;
+        }
+        
+        .cta-section h2 {
+            font-size: 48px;
+            font-weight: 600;
+            margin-bottom: 24px;
+            letter-spacing: -0.02em;
+        }
+        
+        .cta-section p {
+            font-size: 20px;
+            margin-bottom: 48px;
+            color: #9CA3AF;
+        }
+        
+        
+        /* Footer */
+        .footer {
+            background: #0A0A0A;
+            border-top: 1px solid #1F2937;
+            color: #9CA3AF;
+            padding: 48px 0;
+            text-align: center;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 80px 0;
+            }
+            
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                text-align: center;
+            }
+            
+            .hero-text {
+                text-align: center;
+            }
+            
+            .hero h1 {
+                font-size: 32px;
+                line-height: 1.2;
+            }
+            
+            .hero .subheading {
+                font-size: 16px;
+            }
+            
+            .problem, .solution, .client-results, .benefits, .cta-section {
+                padding: 80px 0;
+            }
+            
+            .problem-grid, .benefits-grid, .results-grid {
+                gap: 40px;
+            }
+            
+            .metrics {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .result-card {
+                padding: 30px 20px;
+            }
+            
+            .aggregate-stats {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .solution-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .cta-form {
+                padding: 30px;
+            }
+            
+            .container {
+                padding: 0 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="BoostlyLogo.jpeg" alt="Boostly Logo" style="width: 32px; height: 32px; margin-right: 12px; border-radius: 8px;">
+                Boostly
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Stop Letting<br>Reviews Rot.<br>Start turning them<br>into Cash.<br>For Free.</h1>
+                    <p class="subheading">Boostly makes sure every single review gets a smart, SEO-powered response — without you lifting a finger.</p>
+                    <p class="subheading" style="margin-top: 20px;"><i>*Free only for first 50 restaurant owners*</i></p>
+                </div>
+                
+                <div class="cta-form">
+                    <h3>Want Free Early Access?</h3>
+                    <div id="hubspot-form">
+                        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+                        <script>
+                          hbspt.forms.create({
+                            portalId: "3776858",
+                            formId: "f99ece04-d3c5-4180-8521-fdbd83ca2691",
+                            region: "na1"
+                          });
+                        </script>
+                    </div>
+                    <p class="trust-text">Free plans limited to the first 50 accounts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem">
+        <div class="container">
+            <h2>The Brutal Truth:</h2>
+            <div class="problem-grid">
+                <div class="problem-item">
+                    <div class="icon">1</div>
+                    <h3>Reviews go unanswered.</h3>
+                    <p>80% of restaurant reviews never get a response. Every silent review is a missed opportunity to connect with customers and improve your reputation.</p>
+                </div>
+                <div class="problem-item">
+                    <div class="icon">2</div>
+                    <h3>Revenue Left on the Table</h3>
+                    <p>Harvard Business School research shows responding to reviews increases revenue by 16.4%. Your competitors who respond consistently are winning more customers.</p>
+                </div>
+                <div class="problem-item">
+                    <div class="icon">3</div>
+                    <h3>Google Ranking Decline</h3>
+                    <p>Google's algorithm rewards businesses that engage with reviews. Without consistent responses, your local search ranking suffers and fewer customers find you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution">
+        <div class="container">
+            <div class="solution-content">
+                <div>
+                    <h2>Boostly Flips the Script:</h2>
+                    
+                    <ul class="solution-features">
+                        <li><b>Every review answered in 50 minutes</b></li>
+                        <li><b>SEO keywords baked in</b>— so Google finally notices you</li>
+                        <li><b>Sounds human</b>— no awkward robot replies.</li>
+                        <li><b>15-minute setup</b>— and then it runs forever.</li>
+                    </ul>
+                </div>
+                
+                <div class="stats-box">
+                    <div class="stat">
+                        <span class="stat-number">16.4%</span>
+                        <span class="stat-text">More Customers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-text">Hours Saved Monthly</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-text">Reviews Responded To</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Results Section -->
+    <section class="client-results">
+        <div class="container">
+            <h2>Real Talk From Real Owners</h2>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <div style="background: #1A1A1A; border: 1px solid #2D2D2D; padding: 48px; border-radius: 12px; margin-bottom: 64px;">
+                    <blockquote style="font-size: 24px; font-style: italic; color: #E5E7EB; margin-bottom: 24px; line-height: 1.5;">
+                        "These guys are the real deal!! Was skeptical in the beginning but they have delivered. Most businesses italk to these days are saying there're sales are off. We have been consistently up over last year since we started."
+                    </blockquote>
+                    <div style="color: #9CA3AF; font-size: 16px;">
+                        <strong style="color: #FFFFFF;">J. Gosnell</strong>, Owner of Pizza and Then Some
+                    </div>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 48px; text-align: center;">
+                    <div>
+                        <div style="font-size: 48px; font-weight: 700; color: #7F4FFF; margin-bottom: 8px;">1,200+</div>
+                        <div style="color: #9CA3AF;">Restaurant Locations</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 48px; font-weight: 700; color: #7F4FFF; margin-bottom: 8px;">16.4%</div>
+                        <div style="color: #9CA3AF;">Average Revenue Increase</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 48px; font-weight: 700; color: #7F4FFF; margin-bottom: 8px;">$15</div>
+                        <div style="color: #9CA3AF;">ROI for Every $1 Spent</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2>Why Restaurant Leaders Choose Boostly</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">⏰</div>
+                    <h3>Save 3+ Hours Monthly</h3>
+                    <p>Eliminate manual review responses. Focus on running your restaurant while automation handles your online reputation.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📈</div>
+                    <h3>Improve Search Rankings</h3>
+                    <p>SEO-optimized responses boost your local search visibility. Better rankings drive more qualified customers to your business.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Proven Revenue Growth</h3>
+                    <p>Harvard research confirms: responding to all reviews increases customer acquisition by 16.4%. Measurable results, guaranteed ROI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Your Competitors Won't Wait. Why Should You?</h2>
+            <p>Zero cost. Zero hassle. Just results. Free for the first 50 restaurant owners.</p>
+            <a href="#hubspot-form" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Boostly. All rights reserved | Automated Review Response System</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+    <img src="" alt="" />
+</body>
+</html>
